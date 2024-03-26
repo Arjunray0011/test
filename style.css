@@ -5,49 +5,7 @@
 }
 .container{
     display: flex;
-    background-color: #eab2b2;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    width: 100%;
-    
-}
-.box{
-   
-    border: 1px solid red;
-    width: 100%;   
-}
-.box1{
-    
-    border: 1px solid brown;
-width: 100%;
-}
-.icon{
-    border: 2px solid green;
-    display: flex;
-
-}
-.logo{
-    display: flex;
-    border: 1px solid yellow;
-align-items: center;
-
-}
-.img{
-    display: flex;
-    border: 2px solid rgb(95, 28, 210);
-    
-
-
-}
-img{
-    display: flex;
-height: 70px;
-width: 70px;
-border-radius: 50%;
-}
-h3{
-    font-size: 25px;
-    padding: 0px 2px;
-}
-h2{
-    font-size: 30px;
 }
