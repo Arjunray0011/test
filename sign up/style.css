@@ -1,0 +1,66 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  padding: 20px;
+}
+.text {
+  font-size: 25px;
+  padding: 10px 0px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px;
+}
+.password {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px;
+}
+.checkbox {
+  padding: 5px 0px;
+}
+.sign {
+  display: flex;
+  padding: 10px 0px;
+ 
+  /* text-align: center; */
+}
+.sign button {
+  font-size: 20px;
+  width: 100%;
+  color: blue;
+  background-color: #10d14d;
+  outline: none;
+  border-radius: 20px;
+}
+.google {
+    display: flex;
+  text-align: center;
+  padding: 10px 0px;
+  
+  
+}
+.google button{
+
+}
+.word{
+    color: blue;
+     border-radius: 20px;
+    outline: none;
+
+    padding: 0px 20px;
+    
+}
